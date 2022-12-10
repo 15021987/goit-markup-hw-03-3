@@ -11,6 +11,7 @@
 
 
 body {
+    
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
 
@@ -37,12 +38,16 @@ body {
     width: 1158px;
     padding-left: 20px;
     padding-right: 20px;
+    
+    
 }
 
 
 .logo {
+    margin-left: 15px;
     padding-top: 24px;
     padding-bottom: 24px;
+    text-align: center;
     color: var(--primary-text-color);
     font-family: 'Raleway';
 font-size: 18px;
@@ -60,12 +65,13 @@ color: var(--accent-color);
 /*main nav*/
 .main {
     display: flex;
-    align-items: center;
+    
     margin: auto;
+    text-align: center;
 
 }
 .cont {
-    padding-left: 331px;
+    padding-left: 30px;
 }
 
 
@@ -79,10 +85,7 @@ color: var(--accent-color);
 
  }
 
-.site-nav .intem {
-background-color: brown;
 
-}
 
 .site-nav .intem:not(:last-child) {
     margin-right: 40px;
@@ -125,6 +128,7 @@ text-decoration: none;
 
 
 .list {
+    
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -138,7 +142,8 @@ text-decoration: none;
 
 .contact { 
    
-    margin-left: 40px;
+   
+    margin-left: 45px;
     display: flex;
     color: #434455;
     font-weight: 400;
@@ -246,9 +251,6 @@ line-height: 1.5;
 color: #434455;
 
 }
-.retreat {
-    margin-bottom: 120px;
-}
 
 
 /* Feature */
@@ -275,7 +277,7 @@ color: #2E2F42;
 }
 
 .feature-list .text {
-
+    
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -284,7 +286,10 @@ line-height: 1.5;
    
 }
 .feature-fone {
+    
     background-color: #ffffff;
+    text-align: center;
+
 }
    
 
@@ -350,9 +355,11 @@ background-color: var(--accent-color)
 
 
 .footer {
-
+    width: 1440px;
+    text-align: center;
     background-color: #2E2F42;
     color: #fff;
+    align-items: center;
 
 }
 .text {
@@ -360,7 +367,12 @@ background-color: var(--accent-color)
     
 }
 .party {
-    margin: 16px;
-    margin-bottom: 100px;
-    
+     display: flex;
+ 
+}
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: crimson;
 }
