@@ -64,10 +64,10 @@ color: var(--accent-color);
 } 
 /*main nav*/
 .main {
-    display: flex;
-    
+    display: flex; 
     margin: auto;
     text-align: center;
+    padding: 24px;
 
 }
 .cont {
@@ -91,11 +91,6 @@ color: var(--accent-color);
     margin-right: 40px;
 
 }
-
-
-
-
-
 
 .site-nav .link {
    
@@ -131,6 +126,7 @@ text-decoration: none;
     
     padding-top: 24px;
     padding-bottom: 24px;
+    
 
 font-weight: 400;
 font-size: 16px;
@@ -203,6 +199,7 @@ color: #2E2F42;
 
 .section-title {
 margin: 0;
+text-align: center;
 padding-bottom: 72px;
   font-weight: 600;  
 font-size: 36px;
@@ -237,6 +234,7 @@ color: #2E2F42;
 }
 
 .section-team {
+    
     background: #F4F4FD;
 
 }
@@ -355,15 +353,17 @@ background-color: var(--accent-color)
 
 
 .footer {
+    max-width: 1400px;
      padding-top: 100px;
   padding-bottom: 100px;
-    width: 1440px;
+ 
     text-align: center;
     background-color: #2E2F42;
     color: #fff;
     align-items: center;
-     display: inline-block;
+   
   margin-bottom: 16px;
+  margin: auto;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -378,6 +378,9 @@ background-color: var(--accent-color)
 }
 .party {
      display: flex;
+     font-weight: 400;
+font-size: 16px;
+line-height: 24px;
  
 }
 .pictures {
