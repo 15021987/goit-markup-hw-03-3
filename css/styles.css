@@ -82,6 +82,7 @@ color: var(--accent-color);
     
     display: flex;
     margin-right: 77px;
+    
 
  }
 
@@ -101,6 +102,7 @@ font-weight: 600;
 font-size: 16px;
 
 line-height: 1.2;
+
 
 text-decoration: none;
 
@@ -381,6 +383,7 @@ background-color: var(--accent-color)
      font-weight: 400;
 font-size: 16px;
 line-height: 24px;
+Width: 264px;
  
 }
 .pictures {
@@ -389,5 +392,24 @@ line-height: 24px;
     justify-content: space-between;
    
     padding-right: 0px;
+
+}
+.group {
+     display: flex;
+    flex-wrap: wrap;
+    
+   justify-content: space-between;
+padding-left: 0px;
+margin-right: 30px;
+    margin-bottom: 30px;
+}
+.flex-group {
+    width: 360px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+}
+.flex-group:nth-child(n3) {
+margin-right: 0px;
 }
 
